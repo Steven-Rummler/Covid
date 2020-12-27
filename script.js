@@ -162,6 +162,7 @@ fetch("https://covid-19-coronavirus-statistics.p.rapidapi.com/v1/stats", {
           { width: "16%", targets: 5 },
         ],
         fixedHeader: true,
+        responsive: true,
       });
     });
   })
