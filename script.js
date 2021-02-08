@@ -1,7 +1,7 @@
 fetch("https://covid-19-coronavirus-statistics.p.rapidapi.com/v1/stats", {
   method: "GET",
   headers: {
-    "x-rapidapi-key": "7952a1b822msh4cd1e194a35de37p1efbf4jsn3d84920cd655",
+    "x-rapidapi-key": "",
     "x-rapidapi-host": "covid-19-coronavirus-statistics.p.rapidapi.com",
   },
 })
