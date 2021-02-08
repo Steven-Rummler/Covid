@@ -195,7 +195,7 @@ const country_pop = {
   "Aruba (Netherlands)": 111904,
   "Saint Vincent and the Grenadines": 110696,
   "Jersey (UK)": 107800,
-  "F.S. Micronesia": 104650,
+  Micronesia: 104650,
   "U.S. Virgin Islands (US)": 104578,
   Tonga: 100651,
   Seychelles: 98462,
