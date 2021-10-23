@@ -1,7 +1,7 @@
 fetch("https://covid-19-coronavirus-statistics.p.rapidapi.com/v1/stats", {
   method: "GET",
   headers: {
-    "x-rapidapi-key": "",
+    "x-rapidapi-key": "7952a1b822msh4cd1e194a35de37p1efbf4jsn3d84920cd655",
     "x-rapidapi-host": "covid-19-coronavirus-statistics.p.rapidapi.com",
   },
 })
@@ -33,6 +33,7 @@ fetch("https://covid-19-coronavirus-statistics.p.rapidapi.com/v1/stats", {
         } else if (
           state_name != "Diamond Princess" &&
           state_name != "Grand Princess" &&
+          state_name != "Summer Olympics 2020" &&
           state_name != "Recovered"
         ) {
           states[state_name] = {
@@ -65,6 +66,7 @@ fetch("https://covid-19-coronavirus-statistics.p.rapidapi.com/v1/stats", {
           country_name != "Diamond Princess" &&
           country_name != "Holy See" &&
           country_name != "MS Zaandam" &&
+          country_name != "Summer Olympics 2020" &&
           country_name != "West Bank and Gaza"
         ) {
           countries[country_name] = {
